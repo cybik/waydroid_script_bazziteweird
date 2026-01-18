@@ -32,8 +32,21 @@ waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"
 ```
 
 ## Test the shit
-Your waydroid SHOULD be working fine now, with the right system dates.
+Your waydroid SHOULD be working now, with the right system dates. Play the FGO, should be fine?
 
+## neat it worked. NOW WHAT THE FUCK DID THIS DO
+
+* The magic line is one reference to ONE libhoudini zip file in [stuff/houdini.py](stuff/houdini.py#L13); the previous version had a timebomb for some fucking reason
+* You cloned (aka: git downloaded) this whole repository (bundle of files) to your system to run things
+    * `git clone`
+* You set up what's called a "Python Virtual Environment" (a local playground for Python) with all the requirements
+    * `python3 -m venv venv` into `venv/bin/pip install -r requirements.txt`
+* You ran the script from this repository (that is not written by me) in that "virtual environment" to re-install libhoudini
+    * `sudo venv/bin/python3 main.py install libhoudini`
+
+## What's the fake touch bollocks then
+
+Just a reminder of the command that would fix fgo. I thank you for that.
 
 # Waydroid Extras Script
 
