@@ -40,7 +40,9 @@ Your waydroid SHOULD be working now, with the right system dates. Play the FGO, 
 
 * The magic line is one reference to ONE libhoudini zip file in [stuff/houdini.py](stuff/houdini.py#L13); the previous version had a timebomb for some fucking reason
 * You cloned (aka: git downloaded) this whole repository (bundle of files) to your system to run things
-    * `git clone`
+    * `git clone` creates a local replica of the `git repository`
+* In the terminal, you changed directories to the git clone/replica
+    * `cd waydroid_script_houdini` (`cd` -> `change directory`)
 * You set up what's called a "Python Virtual Environment" (a local playground for Python) with all the requirements
     * `python3 -m venv venv` into `venv/bin/pip install -r requirements.txt`
 * You ran the script from this repository (that is not written by me) in that "virtual environment" to re-install libhoudini
