@@ -13,8 +13,8 @@ You'll be running these commands in sequence, in a terminal.
 ## Getting the git repository and enable the environment
 
 ```bash
-git clone https://github.com/cybik/waydroid_script_bazziteweird waydroid_script
-cd waydroid_script
+git clone https://github.com/cybik/waydroid_script_bazziteweird waydroid_script_houdini
+cd waydroid_script_houdini
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
 sudo venv/bin/python3 main.py install libhoudini
@@ -30,6 +30,9 @@ sudo venv/bin/python3 main.py install libhoudini
 ```bash
 waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"
 ```
+
+## Test the shit
+Your waydroid SHOULD be working fine now, with the right system dates.
 
 
 # Waydroid Extras Script
