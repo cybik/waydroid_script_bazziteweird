@@ -3,9 +3,12 @@
 The following assumes waydroid is already active or otherwise workable. This also assumes you already have the Google apps stuff done and sorted.
 We're ONLY focusing on houdini and touch bullshit.
 
+This whole thing assumes your stuff is still running fine. We're not reinstalling waydroid, we're not reinstalling your gapps, we're just trying
+to update libhoudini.
+
 ## Open a console
 
-You'll be running these commands in sequence, hopefully.
+You'll be running these commands in sequence, in a terminal.
 
 ## Getting the git repository and enable the environment
 
