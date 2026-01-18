@@ -27,7 +27,7 @@ venv/bin/pip install -r requirements.txt
 sudo venv/bin/python3 main.py install libhoudini
 ```
 
-### 3. Force enable the FateGO fake touch bollocks
+### 3. Force enable the FateGO fake touch bollocks (OPTIONAL - MAY BE UNNECESSARY IF YOU ALREADY DID THE THANG)
 ```bash
 waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"
 ```
