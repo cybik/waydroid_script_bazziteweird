@@ -10,28 +10,29 @@ to update libhoudini.
 
 You'll be running these commands in sequence, in a terminal.
 
-## Getting the git repository and enable the environment
+## Instructions / Steps to run
+
+### 1. Getting the git repository and create the environment
 
 ```bash
 git clone https://github.com/cybik/waydroid_script_bazziteweird waydroid_script_houdini
 cd waydroid_script_houdini
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
-sudo venv/bin/python3 main.py install libhoudini
 ```
 
-## Update only libhoudini
+### 2. Update only libhoudini
 
 ```bash
 sudo venv/bin/python3 main.py install libhoudini
 ```
 
-## Force enable the FateGO fake touch bollocks
+### 3. Force enable the FateGO fake touch bollocks
 ```bash
 waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"
 ```
 
-## Test the shit
+### 4. Test the shit
 Your waydroid SHOULD be working now, with the right system dates. Play the FGO, should be fine?
 
 ## neat it worked. NOW WHAT THE FUCK DID THIS DO
