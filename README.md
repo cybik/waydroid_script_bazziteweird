@@ -8,7 +8,7 @@ to update libhoudini.
 
 ## Open a console
 
-You'll be running these commands in sequence, in a terminal.
+You'll be running these commands in sequence, in a terminal. DO NOT CLOSE THE TERMINAL INBETWEEN.
 
 ## Instructions / Steps to run
 
