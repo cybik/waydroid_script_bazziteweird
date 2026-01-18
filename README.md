@@ -1,13 +1,44 @@
+# Hello rellikai
+
+The following assumes waydroid is already active or otherwise workable. This also assumes you already have the Google apps stuff done and sorted.
+We're ONLY focusing on houdini and touch bullshit.
+
+## Open a console
+
+You'll be running these commands in sequence, hopefully.
+
+## Getting the git repository and enable the environment
+
+```bash
+git clone https://github.com/cybik/waydroid_script_bazziteweird waydroid_script
+cd waydroid_script
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+sudo venv/bin/python3 main.py install libhoudini
+```
+
+## Update only libhoudini
+
+```bash
+sudo venv/bin/python3 main.py install libhoudini
+```
+
+## Force enable the FateGO fake touch bollocks
+```bash
+waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"
+```
+
+
 # Waydroid Extras Script
 
 Script to add GApps and other stuff to Waydroid!
 
-# Installation/Usage
+This is a variant of the ublue-os script with one line changed to remove the libhoudini timebomb.
 
 ## Interactive terminal interface
 
-```
-git clone https://github.com/casualsnek/waydroid_script
+```bash
+git clone https://github.com/cybik/waydroid_script_bazziteweird waydroid_script
 cd waydroid_script
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
@@ -25,7 +56,7 @@ sudo venv/bin/python3 main.py
 ## Command Line
 
 ```bash
-git clone https://github.com/casualsnek/waydroid_script
+git clone https://github.com/casualsnek/waydroid_script waydroid_script
 cd waydroid_script
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
